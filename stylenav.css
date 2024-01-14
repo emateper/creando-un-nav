@@ -11,31 +11,28 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 body {
     background: #000;
 }
 
-div {
+.content {
     background: #fff;
     height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
-    
-    
 }
 
-div img {
+.content img {
     height: 100px;
-
 }
 
 .flex-content {
@@ -46,7 +43,7 @@ div img {
     display: inline-flex;
 }
 
-li {
+.flex-item li {
     list-style: none;
     padding: 20px;
     background: #999;
@@ -54,11 +51,11 @@ li {
     border: 3px solid #000;
 }
 
-li:hover {
+.flex-item li:hover {
     text-decoration: underline;
 }
 
-a {
+.flex-item a {
     text-decoration: none;
     color: #fff;
 }
